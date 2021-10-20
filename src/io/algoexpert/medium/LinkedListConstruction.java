@@ -108,6 +108,8 @@ public class LinkedListConstruction {
         if (node.next != null) {
             node.next.previous = node.previous;
         }
+
+        // Garbage Collection
         node.previous = null;
         node.next = null;
     }

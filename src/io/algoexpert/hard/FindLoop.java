@@ -68,7 +68,7 @@ public class FindLoop {
         }
         temp.next = temp2;
 
-//        End of implementatioon
+//        End of implementation
 
         loop.findLoop();
     }
